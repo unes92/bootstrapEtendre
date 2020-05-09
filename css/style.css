@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-size: 13px;
+	font-size: 1.3rem;
+	line-height: 140%;
+	font-family: arial,freeSans,sans-serif;
+	color: #16212c;
+	//background: #e9edf0;
+}
+
+ul {
+
+	list-style-type: none;
+
+}
+
+#sfmenu ul li{
+
+
+
+//	background-color: #E4ECF2;
+background: rgb(242,246,248);
+}
+
+
+
+#recherche_conteneur
+{margin: 20px auto;
+text-align: center;}
+
+
+.first{
+
+	text-align: center;
+	//background-color:#c9d6d0;
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2f6f8+25,d8e1e7+72,b5c6d0+88,e0eff9+98;Grey+Gloss+%232 */
+background: rgb(242,246,248); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(242,246,248,1) 25%, rgba(216,225,231,1) 72%, rgba(181,198,208,1) 88%, rgba(224,239,249,1) 98%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(242,246,248,1) 25%,rgba(216,225,231,1) 72%,rgba(181,198,208,1) 88%,rgba(224,239,249,1) 98%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(242,246,248,1) 25%,rgba(216,225,231,1) 72%,rgba(181,198,208,1) 88%,rgba(224,239,249,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ); /* IE6-9 */
+
+
+	padding: 8px;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	display: block;
+}
+
+
+
+ul .first ul
+{
+
+	display: none;
+	position: absolute;
+	top: 15px;
+	left: 0;
+	width: 100%;
+	padding: 20px;
+
+	z-index: 1;
+}
+
+
+
+ul .first:hover ul
+{
+	display: block;
+
+
+}
+
+
+/*
+.first a:hover 
+{
+	display: block;
+	color:red;
+
+}
+*/
+
+
+section
+{
+	margin-bottom: 2%;
+}
+
+
+
+.fond-bleu
+{
+
+background-color: #0E5F96;
+color:white;
+border-radius: 10px 10px 0 0;
+padding: 5px;
+}
+
+#contenu_principal h1
+{
+	font-size: 2em;
+	font-weight: lighter;
+	padding-left: 5%;
+}
+
+
+
+.fond-bleu a
+{
+
+background-color: #0E5F96;
+width: 100%;
+color:white;
+
+
+}
+
+
+.details
+{
+//	padding-top: 10px;
+}
+
+
+.backgroundgray ul
+{
+
+padding: 20px;
+
+
+}
+.backgroundgray ul a
+{
+
+font-size: 12px;
+color: black;
+
+}
+
+
+.backgroundgray
+{
+
+	background-color: #F1F6F8;
+	border-radius:0 0 10px 10px;
+	margin-bottom: 5px;
+}
+
+
+#col-droite h3
+{
+	font-size: 15px;
+text-align: center;
+}
+
+
+.col-md-4 .col-md-12 
+{
+	padding: 10px 0;
+	font-size: 12px;
+}
+
+
+.fond-rouge
+{
+	color:white;
+	border-radius: 10px 10px 0 0;
+background-color: #9C2F03;
+padding: 5px;
+
+
+}
+
+
+
+
+
+.date
+{
+	color:#9C2F03;
+	font-weight: bold;
+}
+
+
+.divpolice-bleue 
+{
+font-weight: bold;
+text-align: right;
+}
+
+.police-rouge
+{
+	color:#9C2F03;
+	padding: 2px;
+}
+.divpolice-rouge
+{
+
+font-weight: bold;
+text-align: right;
+padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+{
+
+padding: 2px;
+}
+
+
+
+footer p
+{
+
+
+font-size: 12px;
+}
+
+footer ul
+{
+
+padding: 5px;
+font-size: 10px;
+}
+
+footer ,footer a
+{
+	color:white;
+
+}
+
+.ulstyle
+{
+	list-style-type: circle;
+	padding: 5px 2px;
+}
+
+.backgroundgreen
+{
+
+	background-color:#008BD3;
+	
+}
+/*
+.backgroundgreen li
+{
+	text-align: center;
+}
+*/
+
+
+#fin_du_pied
+{
+	text-align: center;
+	border-radius:0 0 10px 10px;
+	padding: 10px;
+	font-size: 10px;
+}
